@@ -19,7 +19,5 @@ loginButton.addEventListener("click", (e) => {
     } else if (username === "Jack" && password === "1984-4") {
         alert("You have successfully logged in.");
         location.replace('https://forsakendteam.github.io/1984.github.io/hub.html');
-    } else {
-        loginErrorMsg.style.opacity = 1;
     } 
 })
